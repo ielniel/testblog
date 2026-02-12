@@ -1,22 +1,6 @@
-<news-template>
-  <div class="header">
-    <h1>News</h1>
-  </div>
-  <section class="latest-news">
-    <article class="news-item">
-      <h2>Latest Article Title</h2>
-      <p>This is a summary of the latest article.</p>
-      <form>
-        <input type="text" placeholder="Search news..." />
-        <button type="submit">Search</button>
-      </form>
-    </article>
-    <article class="news-item">
-      <h2>Another Article Title</h2>
-      <p>This is another summary of an article.</p>
-    </article>
-  </section>
-  <footer>
-    <p>&copy; 2026 Your News Company</p>
-  </footer>
-</news-template>
+<widget>
+    <title>Archive</title>
+    <description>This widget syncs with Blogger's native archive widget and can be disabled from widget layout.</description>
+    <enabled>true</enabled>
+    <syncWithBlogger>true</syncWithBlogger>
+</widget>
