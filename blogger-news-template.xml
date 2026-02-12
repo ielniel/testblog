@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog>
+    <title>My Blog</title>
+    <description>This is an example blog entry containing &amp; escaped entities.</description>
+    <entry>
+        <title>First Entry</title>
+        <content>Welcome to my blog! Let's talk about coding &amp; development.</content>
+        <date>2026-02-12</date>
+    </entry>
+</blog>
