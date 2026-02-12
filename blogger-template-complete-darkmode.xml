@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget>
+  <title>Blogger Template Complete with Dark Mode</title>
+  <style>
+    :root {
+      --bg-color-light: #ffffff;
+      --bg-color-dark: #121212;
+      --text-color-light: #000000;
+      --text-color-dark: #ffffff;
+      --primary-color: #6200ea;
+      --secondary-color: #03dac6;
+      --accent-color: #f50057;
+      --border-color: #dddddd;
+    }
+    body {
+      background-color: var(--bg-color-light);
+      color: var(--text-color-light);
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .dark-mode {
+      background-color: var(--bg-color-dark);
+      color: var(--text-color-dark);
+    }
+    /* Navigation, header, sidebar and footer styles */
+    header, nav, footer {
+      background-color: var(--bg-color-light);
+      transition: background-color 0.3s;
+    }
+    .dark-mode header, .dark-mode nav, .dark-mode footer {
+      background-color: var(--bg-color-dark);
+    }
+    /* ... other styles ... */
+  </style>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.createElement('button');
+      toggleButton.innerText = 'Toggle Dark Mode';
+      toggleButton.style.position = 'fixed';
+      toggleButton.style.top = '10px';
+      toggleButton.style.right = '10px';
+      toggleButton.style.zIndex = '1000';
+      toggleButton.onclick = toggleDarkMode;
+      document.body.appendChild(toggleButton);
+    });
+  </script>
+  <div class='carousel'>
+    <!-- Featured Posts Carousel Code Here -->
+  </div>
+  <main>
+    <section class='posts'>
+      <!-- Blog Posts Display Code Here -->
+    </section>
+    <aside class='sidebar'>
+      <!-- Sidebar Widgets Code Here -->
+    </aside>
+    <footer>
+      <!-- Footer Code Here -->
+    </footer>
+  </main>
+  <div class='pagination'>
+    <!-- Pagination Code Here -->
+  </div>
+  <div class='comments'>
+    <!-- Comments Code Here -->
+  </div>
+</widget>
