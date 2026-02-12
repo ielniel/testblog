@@ -1,34 +1,60 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE html>
-<html b:skin='text/css'>
+<html>
 <head>
-    <title>Your Blog Title</title>
-    <b:skin>
-        /* Add CSS styling here */
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #ffffff;
         }
-        h1 {
-            color: #333;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2, h3 {
+            margin: 0 0 10px;
         }
         p {
-            font-size: 14px;
-            line-height: 1.5;
+            line-height: 1.6;
         }
-    </b:skin>
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ffd700;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Blog Header</h1>
-    </header>
-    <main>
-        <article>
-            <h2>Your Article Title</h2>
-            <p>Your article content goes here...</p>
-        </article>
-    </main>
-    <footer>
-        <p>Footer content goes here.</p>
-    </footer>
+    <div class="container">
+        <h1>Latest News</h1>
+        <div class="card">
+            <h2>News Title 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Praesent a libero in nulla bibendum suscipit.</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="card">
+            <h2>News Title 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Praesent a libero in nulla bibendum suscipit.</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="card">
+            <h2>News Title 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Praesent a libero in nulla bibendum suscipit.</p>
+            <a href="#">Read more</a>
+        </div>
+    </div>
 </body>
 </html>
