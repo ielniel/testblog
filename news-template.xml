@@ -1,8 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<news>
-    <article>
-        <title>Example Title</title>
-        <link href="https://example.com/article" />
-        <description>This is a description of the article.</description>
+<news-template>
+  <div class="header">
+    <h1>News</h1>
+  </div>
+  <section class="latest-news">
+    <article class="news-item">
+      <h2>Latest Article Title</h2>
+      <p>This is a summary of the latest article.</p>
+      <form>
+        <input type="text" placeholder="Search news..." />
+        <button type="submit">Search</button>
+      </form>
     </article>
-</news>
+    <article class="news-item">
+      <h2>Another Article Title</h2>
+      <p>This is another summary of an article.</p>
+    </article>
+  </section>
+  <footer>
+    <p>&copy; 2026 Your News Company</p>
+  </footer>
+</news-template>
