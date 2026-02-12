@@ -1,6 +1,80 @@
-<xml>
-    <b:skin>
-        /* Add your CSS here */
-    </b:skin>
-    <!-- Other blog template elements -->
-</xml>
+<?xml version='1.0' encoding='UTF-8'?>
+<blogger>
+  <head>
+    <title>Your Blog Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+      }
+      .post {
+        border: 1px solid #ddd;
+        margin: 20px 0;
+        padding: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .featured {
+        background: #f0f8ff;
+        font-weight: bold;
+      }
+      footer {
+        text-align: center;
+        padding: 10px 0;
+        background: #333;
+        color: #fff;
+      }
+      @media (max-width: 600px) {
+        .container {
+          width: 95%;
+        }
+        header, footer {
+          padding: 5px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My News Blog</h1>
+    </header>
+    <div class='container'>
+      <div class='post featured'>
+        <h2>Featured Post Title</h2>
+        <p>Featured post content goes here. This should be engaging and relevant.</p>
+      </div>
+      <div class='post'>
+        <h2>Post Title</h2>
+        <p>Post content goes here. This is an example of a regular news blog post.</p>
+      </div>
+      <div class='post'>
+        <h2>Another Post Title</h2>
+        <p>Content of another post. You can display news updates here.</p>
+      </div>
+      <div class='pagination'>
+        <a href='#'>Previous</a>
+        <a href='#'>Next</a>
+      </div>
+    </div>
+    <footer>
+      <p>© 2026 Your Blog Name. All rights reserved.</p>
+      <div class='social-sharing'>
+        <a href='#'>Facebook</a> |
+        <a href='#'>Twitter</a> |
+        <a href='#'>Instagram</a>
+      </div>
+    </footer>
+  </body>
+</blogger>
