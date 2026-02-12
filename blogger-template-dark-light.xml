@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <title>Dark Light Blogger Template</title>
+    <description>This template supports both dark and light modes.</description>
+    <settings>
+        <setting name="theme">dark</setting>
+        <setting name="color">&amp;lt;color&amp;gt;</setting>
+    </settings>
+</template>
