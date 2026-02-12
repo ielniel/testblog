@@ -1,60 +1,25 @@
-<html>
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #6a11cb, #2575fc);
-            color: #ffffff;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .card {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        h1, h2, h3 {
-            margin: 0 0 10px;
-        }
-        p {
-            line-height: 1.6;
-        }
-        a {
-            text-decoration: none;
-            color: #ffffff;
-            transition: color 0.3s;
-        }
-        a:hover {
-            color: #ffd700;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Latest News</h1>
-        <div class="card">
-            <h2>News Title 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Praesent a libero in nulla bibendum suscipit.</p>
-            <a href="#">Read more</a>
-        </div>
-        <div class="card">
-            <h2>News Title 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Praesent a libero in nulla bibendum suscipit.</p>
-            <a href="#">Read more</a>
-        </div>
-        <div class="card">
-            <h2>News Title 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Praesent a libero in nulla bibendum suscipit.</p>
-            <a href="#">Read more</a>
-        </div>
-    </div>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<newsBlog>
+    <header>
+        <title>Modern News Blog</title>
+        <description>Your daily dose of news</description>
+        <date>2026-02-12</date>
+    </header>
+    <articles>
+        <article>
+            <title>Breaking News</title>
+            <date>2026-02-12</date>
+            <author>Jane Doe</author>
+            <content><![CDATA[<p>This is a sample content for breaking news. Stay tuned for more updates!</p>]]></content>
+        </article>
+        <article>
+            <title>Technology Update</title>
+            <date>2026-02-11</date>
+            <author>John Smith</author>
+            <content><![CDATA[<p>Latest advancements in technology. Explore new trends and innovations!</p>]]></content>
+        </article>
+    </articles>
+    <footer>
+        <copyright>&copy; 2026 Your Blog Name. All rights reserved.</copyright>
+    </footer>
+</newsBlog>
