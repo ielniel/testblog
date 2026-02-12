@@ -1,80 +1,88 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<blogger>
+<template>
   <head>
-    <title>Your Blog Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background: #333;
-        color: #fff;
-        padding: 10px 0;
-        text-align: center;
-      }
-      .container {
-        width: 80%;
-        margin: auto;
-      }
-      .post {
-        border: 1px solid #ddd;
-        margin: 20px 0;
-        padding: 10px;
-        border-radius: 5px;
-        overflow: hidden;
-      }
-      .featured {
-        background: #f0f8ff;
-        font-weight: bold;
-      }
-      footer {
-        text-align: center;
-        padding: 10px 0;
-        background: #333;
-        color: #fff;
-      }
-      @media (max-width: 600px) {
-        .container {
-          width: 95%;
-        }
-        header, footer {
-          padding: 5px 0;
-        }
-      }
-    </style>
+    <title>Ultra Modern News Template - 2026</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>My News Blog</h1>
+    <header class="header">
+      <h1>Latest News</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <div class='container'>
-      <div class='post featured'>
-        <h2>Featured Post Title</h2>
-        <p>Featured post content goes here. This should be engaging and relevant.</p>
-      </div>
-      <div class='post'>
-        <h2>Post Title</h2>
-        <p>Post content goes here. This is an example of a regular news blog post.</p>
-      </div>
-      <div class='post'>
-        <h2>Another Post Title</h2>
-        <p>Content of another post. You can display news updates here.</p>
-      </div>
-      <div class='pagination'>
-        <a href='#'>Previous</a>
-        <a href='#'>Next</a>
-      </div>
-    </div>
-    <footer>
-      <p>© 2026 Your Blog Name. All rights reserved.</p>
-      <div class='social-sharing'>
-        <a href='#'>Facebook</a> |
-        <a href='#'>Twitter</a> |
-        <a href='#'>Instagram</a>
+    <main class="main-content">
+      <article>
+        <h2>Article Title</h2>
+        <p>Article content goes here...</p>
+        <p class="read-time">Estimated read time: 3 minutes</p>
+        <div class="related-articles">
+          <h3>Related Articles</h3>
+          <ul>
+            <li><a href="#">Related Article 1</a></li>
+            <li><a href="#">Related Article 2</a></li>
+          </ul>
+        </div>
+      </article>
+      <aside class="ai-recommendations">
+        <h3>AI Recommendations</h3>
+        <ul>
+          <li><a href="#">Recommended Article 1</a></li>
+          <li><a href="#">Recommended Article 2</a></li>
+        </ul>
+      </aside>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2026 News Platform</p>
+      <div class="author-profiles">
+        <h3>Author Profiles</h3>
+        <ul>
+          <li><a href="#">Author 1</a></li>
+          <li><a href="#">Author 2</a></li>
+        </ul>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
-</blogger>
+</template>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #fff;
+  }
+  .header, .footer {
+    text-align: center;
+    padding: 10px;
+  }
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .main-content {
+    margin: 20px;
+  }
+  /* Accessibility styles */
+  h1, h2, h3 {
+    color: #FFD700;
+  }
+  a {
+    color: #1E90FF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
