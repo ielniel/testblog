@@ -1,55 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<template>
-  <head>
-    <style>
-      body {
-        font-family: 'Arial', sans-serif;
-        background: linear-gradient(45deg, #6a11cb, #2575fc);
-        color: #333;
-        margin: 0;
-        padding: 0;
-        transition: all 0.3s ease;
-      }
-      h1, h2, h3 {
-        font-family: 'Helvetica', sans-serif;
-      }
-      .container {
-        width: 90%;
-        margin: auto;
-        max-width: 1200px;
-      }
-      .news-item {
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        margin: 20px 0;
-        overflow: hidden;
-        transition: 0.3s;
-      }
-      .news-item:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      }
-      .news-item img {
-        max-width: 100%;
-      }
-      .news-item h2 {
-        padding: 15px;
-      }
-      .news-item p {
-        padding: 0 15px 15px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Latest News</h1>
-      <div class="news-item">
-        <img src="image-url" alt="News Image">
-        <h2>Title of the News Item</h2>
-        <p>Description of the news item goes here. Smooth transitions and engaging content make this perfect for modern blogs.</p>
-      </div>
-      <!-- Repeat news items as necessary -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Blog Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>My Professional Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to My Blog</h2>
+    <p>Your go-to place for insightful articles.</p>
+</section>
+
+<section class="featured-posts">
+    <h3>Featured Posts</h3>
+    <div class="grid">
+        <article>
+            <h4>Post Title 1</h4>
+            <p>Short description of post 1.</p>
+        </article>
+        <article>
+            <h4>Post Title 2</h4>
+            <p>Short description of post 2.</p>
+        </article>
     </div>
-  </body>
-</template>
+</section>
+
+<section class="posts-grid">
+    <h3>All Posts</h3>
+    <div class="grid">
+        <article>
+            <h4>Post Title 3</h4>
+            <p>Short description of post 3.</p>
+        </article>
+        <article>
+            <h4>Post Title 4</h4>
+            <p>Short description of post 4.</p>
+        </article>
+    </div>
+</section>
+
+<aside class="sidebar">
+    <h3>Sidebar</h3>
+    <div class="widget">
+        <h4>About Me</h4>
+        <p>Short bio about the author.</p>
+    </div>
+    <div class="widget">
+        <h4>Categories</h4>
+        <ul>
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+        </ul>
+    </div>
+</aside>
+
+<footer>
+    <p>&copy; 2026 My Professional Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
