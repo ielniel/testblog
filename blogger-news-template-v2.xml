@@ -1,0 +1,26 @@
+<xml>
+  <head>
+    <title>Your Blog Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Add any additional styles or scripts here -->
+  </head>
+  <body>
+    <header>
+      <h1>Your Blog Title</h1>
+      <nav>
+        <ul>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Latest News</h2>
+      <!-- Main content goes here -->
+    </main>
+    <footer>
+      <p>&copy; 2026 Your Blog Name. All rights reserved.</p>
+    </footer>
+  </body>
+</xml>
