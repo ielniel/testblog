@@ -1,51 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<template>
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<html b:skin='text/css'>
+<head>
+    <title>Your Blog Title</title>
+    <b:skin>
+        /* Add CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+    </b:skin>
+</head>
+<body>
     <header>
-        <title>News Blog</title>
-        <meta name="description" content="Stay updated with the latest news." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <h1>Your Blog Header</h1>
     </header>
-    <body>
-        <div class="header">
-            <h1>News Blog</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#categories">Categories</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="featured-posts">
-            <h2>Featured Posts</h2>
-            <!-- Each post could be a section or a dynamic list -->
-            <section class="post">
-                <h3>Post Title</h3>
-                <p>Post excerpt...</p>
-                <a href="#readmore">Read More</a>
-            </section>
-        </div>
-        <div class="categories">
-            <h2>Categories</h2>
-            <ul>
-                <li><a href="#category1">Category 1</a></li>
-                <li><a href="#category2">Category 2</a></li>
-                <li><a href="#category3">Category 3</a></li>
-            </ul>
-        </div>
-        <div class="ads">
-            <h2>Advertisement</h2>
-            <p>[Ad content here]</p>
-        </div>
-        <div class="social-sharing">
-            <h2>Share this post</h2>
-            <a href="#facebook">Facebook</a>
-            <a href="#twitter">Twitter</a>
-            <a href="#linkedin">LinkedIn</a>
-        </div>
-        <footer>
-            <p>© 2026 News Blog. All rights reserved.</p>
-        </footer>
-    </body>
-</template>
+    <main>
+        <article>
+            <h2>Your Article Title</h2>
+            <p>Your article content goes here...</p>
+        </article>
+    </main>
+    <footer>
+        <p>Footer content goes here.</p>
+    </footer>
+</body>
+</html>
